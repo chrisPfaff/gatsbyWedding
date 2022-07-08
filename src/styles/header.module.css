@@ -1,0 +1,35 @@
+.header {
+  background: var(--laurel-green);
+  color: var(--linen);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.header a {
+  color: inherit;
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  transition: all 1s ease;
+  height: 75px;
+  padding-top: 8px;
+  opacity: 0.9;
+}
+
+.header a:focus,
+.header a:hover {
+  background: var(--black);
+  color: var(--offwhite);
+  text-decoration: underline;
+}

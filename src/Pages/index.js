@@ -1,10 +1,24 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import { Link, graphql, useStaticQuery } from "gatsby";
 
-export default function main() {
+export default function Main() {
+  const data = useStaticQuery(graphql`
+    query MySiteMetaData {
+      site {
+        siteMetadata {
+          title
+          description
+          siteUrl
+          image
+        }
+      }
+    }
+  `);
+  console.log(data);
   return (
-    <div className="">
+    <div>
       <h1>Hello</h1>
+      <Link to="/about">About</Link>
     </div>
   );
 }

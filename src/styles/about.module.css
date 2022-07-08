@@ -1,0 +1,11 @@
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper [data-gatsby-image-wrapper] {
+  border: 1px solid var(--black);
+  border-radius: 50%;
+  box-shadow: -16px 2px 23px -4px rgba(0, 0, 0, 0.56);
+}

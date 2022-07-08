@@ -6,4 +6,23 @@ module.exports = {
     image:
       "https://makeup-storage-media.s3.us-east-2.amazonaws.com/images/makeup_palette.jpg",
   },
+  plugins: [
+    //PLUGIN FOR HEAD META TAGS
+    'gatsby-plugin-react-helmet',
+    //END PLUGIN FOR HEAD META TAGS
+
+    //Image compression
+    'gatsby-remark-images',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`,
+      },
+    },
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    //end image compression
+  ],
 };

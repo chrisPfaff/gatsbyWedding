@@ -1,10 +1,11 @@
-import * as React from "react";
-import { Link } from "gatsby";
+import * as React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout.js';
 
 export default function about() {
   return (
-    <div className="">
+    <Layout>
       <h1>About</h1>
-    </div>
+    </Layout>
   );
 }

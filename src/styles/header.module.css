@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding: 1rem;
   z-index: 2;
+  align-items: center;
 }
 
 .header a {
@@ -23,7 +24,6 @@
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
   transition: all 1s ease;
   height: 75px;
-  padding-top: 8px;
   opacity: 0.9;
 }
 

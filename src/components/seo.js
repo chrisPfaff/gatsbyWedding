@@ -11,6 +11,7 @@ export function Seo(props) {
           description
           siteUrl
           image
+          backgroundImage
         }
       }
     }

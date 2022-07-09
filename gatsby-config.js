@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.mysite.com",
-    title: "Old New Borrowed Blue Beauty",
-    description: "Makeup for weddings and personal events",
+    siteUrl: 'https://www.mysite.com',
+    title: 'Old New Borrowed Blue Beauty',
+    description: 'Makeup for weddings and personal events',
     image:
-      "https://makeup-storage-media.s3.us-east-2.amazonaws.com/images/makeup_palette.jpg",
+      'https://makeup-storage-media.s3.us-east-2.amazonaws.com/images/makeup_palette.jpg',
+    backgroundImage:
+      'https://makeup-storage-media.s3.us-east-2.amazonaws.com/images/wedding.jpg',
   },
   plugins: [
     //PLUGIN FOR HEAD META TAGS

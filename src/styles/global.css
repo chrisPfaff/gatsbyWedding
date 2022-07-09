@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
 :root {
   --black: #000;
   --gray: #555;
@@ -34,6 +36,8 @@ h4,
 h5,
 h6 {
   color: var(--congo-pint);
+  font-family: 'Edu SA Beginner', cursive;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 p {

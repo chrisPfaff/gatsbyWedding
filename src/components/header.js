@@ -40,14 +40,15 @@ export default function Header() {
     >
       <Link to="/">
         <StaticImage
-          src="../images/logo.png"
+          src="../images/logo.svg"
           alt="Logo"
           placeholder="blurred"
-          width={150}
-          height={60}
+          width={70}
+          height={70}
           style={{ display: 'block' }}
         />
       </Link>
+      <h1>Old New Borrowed Blue Beauty</h1>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

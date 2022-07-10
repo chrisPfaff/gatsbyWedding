@@ -1,14 +1,16 @@
 import * as React from 'react';
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import { useState } from 'react';
 import Layout from '../components/layout.js';
 import '../styles/global.css';
 import Hero from '../components/hero.js';
 
 export default function Main() {
+  const [stickyMargin, setStickyMargin] = useState(0);
+
   return (
     <Layout>
-      <Hero />
-      <section>
+      <Hero margin={setStickyMargin} />
+      <section style={{ marginTop: `${stickyMargin}` }}>
         <p>
           Nam repellendus perferendis est distinctio voluptas ut beatae fugiat
           aut veritatis corporis quo similique pariatur ab dolorum ipsum quo

@@ -1,7 +1,5 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import { Seo } from './seo.js';
-import { content } from '../styles/layout.module.css';
 import Header from '../components/header.js';
 
 export default function Layout({
@@ -15,7 +13,7 @@ export default function Layout({
     <>
       <Seo title={title} description={description} image={image} path={path} />
       <Header />
-      <main className={content}>{children}</main>
+      <main>{children}</main>
     </>
   );
 }

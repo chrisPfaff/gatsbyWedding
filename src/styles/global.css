@@ -78,3 +78,19 @@ p {
     padding: 0px 32px;
   }
 }
+
+.text-align {
+  text-align: center;
+}
+
+.four {
+  margin-top: 80px;
+}
+
+.four-link {
+  font-family: 'Edu SA Beginner', cursive;
+  text-decoration: none;
+  font-size: 3rem;
+  color: var(--gray);
+  font-weight: 900;
+}

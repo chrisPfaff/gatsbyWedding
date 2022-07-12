@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Seo } from './seo.js';
 import Header from '../components/header.js';
+import Footer from '../components/footer';
 
 export default function Layout({
   children,
@@ -14,6 +15,7 @@ export default function Layout({
       <Seo title={title} description={description} image={image} path={path} />
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   );
 }

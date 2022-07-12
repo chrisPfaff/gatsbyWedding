@@ -1,0 +1,12 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: var(--congo-pint-opacity);
+  color: var(--linen);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 60px;
+  z-index: 2;
+  align-items: center;
+}
